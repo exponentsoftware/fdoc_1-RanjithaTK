@@ -5,6 +5,6 @@ const varietyOfWords = (sentence) => {
   console.log(newSentence)
   let array = sentence.split(" ")
   let newArray = [...new Set(array)]
-  return newArray
+  return newArray.length
 }
 console.log(varietyOfWords(sentence))
