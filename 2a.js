@@ -4,3 +4,6 @@ const loopingTriangle = () => {
   }
 }
 loopingTriangle()
+for (let j = "######"; j.length > 1; j -= "#") {
+  console.log(j)
+}
